@@ -1541,11 +1541,13 @@ a:focus {
 .single {
     position: relative;
     width: 100%;
-    padding: 45px 0 65px 0;
+    max-width: 100%;
 }
 
 .single img {
-    margin: 10px 0 15px 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 
 .single .table,
