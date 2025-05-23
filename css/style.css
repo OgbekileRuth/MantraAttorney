@@ -282,7 +282,6 @@ a:focus {
     }
 }
 
-
 /*******************************/
 /******** Carousel CSS *********/
 /*******************************/
@@ -324,8 +323,8 @@ a:focus {
     top: 0;
     bottom: 0;
     display: flex;
-    align-items: start;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     height: calc(100vh - 170px);
 }
@@ -334,15 +333,13 @@ a:focus {
     color: #ffffff;
     font-size: 60px;
     font-weight: 700;
-    text-align: left;
-    margin-bottom: 15px;
-
+    margin-bottom: 20px;
 }
 
 .carousel .carousel-caption p {
     color: #ffffff;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .carousel .carousel-caption .btn {
@@ -403,6 +400,7 @@ a:focus {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
 }
+
 
 
 /*******************************/
@@ -860,35 +858,35 @@ a:focus {
 
 
 /*******************************/
-/*********** FAQs CSS **********/
+/*********** Resources CSS **********/
 /*******************************/
-.faqs {
+.Resources {
     position: relative;
     width: 100%;
     padding: 45px 0;
 }
 
-.faqs .faqs-img {
+.Resources .Resources-img {
     position: relative;
     height: 100%;
     padding: 10px;
     background: #121518;
 }
 
-.faqs .faqs-img img {
+.Resources .Resources-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 @media(max-width: 767.98px) {
-    .faqs .faqs-img {
+    .Resources .Resources-img {
         margin-bottom: 30px;
         height: auto;
     }
 }
 
-.faqs .card {
+.Resources .card {
     margin-bottom: 15px;
     padding-top: 15px;
     border: none;
@@ -896,19 +894,19 @@ a:focus {
     border-top: 1px solid #aa9166;
 }
 
-.faqs .card:last-child {
+.Resources .card:last-child {
     margin-bottom: 0;
     padding-bottom: 15px;
     border-bottom: 1px solid #aa9166;
 }
 
-.faqs .card-header {
+.Resources .card-header {
     padding: 0;
     border: none;
     background: #ffffff;
 }
 
-.faqs .card-header a {
+.Resources .card-header a {
     display: block;
     width: 100%;
     color: #121518;
@@ -916,7 +914,7 @@ a:focus {
     line-height: 40px;
 }
 
-.faqs .card-header a span {
+.Resources .card-header a span {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -927,7 +925,7 @@ a:focus {
     font-weight: 700;
 }
 
-.faqs .card-header [data-toggle="collapse"]:after {
+.Resources .card-header [data-toggle="collapse"]:after {
     font-family: 'font Awesome 5 Free';
     content: "\f067";
     float: right;
@@ -937,7 +935,7 @@ a:focus {
     transition: .3s;
 }
 
-.faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+.Resources .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
     font-family: 'font Awesome 5 Free';
     content: "\f068";
     float: right;
@@ -947,14 +945,14 @@ a:focus {
     transition: .3s;
 }
 
-.faqs .card-body {
+.Resources .card-body {
     padding: 15px 0 0 0;
     font-size: 16px;
     border: none;
     background: #ffffff;
 }
 
-.faqs a.btn {
+.Resources a.btn {
     position: relative;
     margin-top: 15px;
     padding: 15px 35px;
@@ -969,7 +967,7 @@ a:focus {
     transition: .3s;
 }
 
-.faqs a.btn:hover {
+.Resources a.btn:hover {
     color: #121518;
     background: #aa9166;
 }
